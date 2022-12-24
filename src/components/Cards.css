@@ -1,0 +1,26 @@
+.maincard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(134,224,224);
+    display: inline;
+    border-radius: 10px;
+}
+.image{
+    width: 70px;
+    border-radius: 50%;
+    align-items: center;
+}
+.cardbtn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius:3px;
+}

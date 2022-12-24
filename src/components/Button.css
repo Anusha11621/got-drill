@@ -1,0 +1,24 @@
+.buttonstack{
+    background-color: rgb(0, 0, 0);
+    margin: 10px;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    align-items: center;
+   }
+   .btndiv {
+       display: flex;
+       justify-content: center;
+       flex-wrap: wrap;
+   }
+   button:hover{
+       background-color: white;
+       border: 1px solid black;
+       color: black;
+   }
+   @media(max-width:500px){
+       button{
+           width: 120px;
+       }
+   }
